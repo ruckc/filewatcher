@@ -15,5 +15,5 @@ interface io.ruck.filewatcher.WatchListener<T>
 
 ## Implementation
 
-Essentially, filewatcher spawns a single thread to follow a (WatchService)[https://docs.oracle.com/javase/8/docs/api/java/nio/file/WatchService.html].  This Thread sleeps until a WatchKey is returned, and then notifies the appropriate WatchListeners.
+Essentially, filewatcher spawns a single thread to follow a [WatchService](https://docs.oracle.com/javase/8/docs/api/java/nio/file/WatchService.html).  This Thread sleeps until a WatchKey is returned, and then notifies the appropriate WatchListeners.
 
